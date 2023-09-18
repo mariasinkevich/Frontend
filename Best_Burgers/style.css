@@ -1,0 +1,224 @@
+html {
+    box-sizing: border-box;
+}
+  
+* {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ul {
+    list-style: none;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
+    padding: 100px 200px 170px 100px;
+}
+
+.header-time{
+    color: #FBB731;
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.header-title{
+    font-family: 'Nunito Sans';
+    font-weight: 800;
+    font-size: 120px;
+    line-height: 140px;
+    text-transform: uppercase;
+    color: #FAF9F9;
+    margin-bottom: 40px;
+}
+
+.header-description{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 140%;
+    color: #DEDEDE;
+    width: 525px;
+    margin-bottom: 40px;
+}
+
+.order-btn{
+    display: flex;
+}
+
+.button{
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #1E2F40;
+    text-decoration: none;
+    padding: 20px 45px;
+    border-radius: 5px;
+    background-color: #FBB731;
+}
+
+.header-img{
+    height: 100vh;
+    width: 300px;
+    background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
+    margin-top: -100px;
+}
+
+.burger-img{
+    height: 100vh;
+    margin-left: -170px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.card-sale{
+    width: 580px;
+    height: 400px;
+    background: url("img/img2.png");
+    padding-left: 50px;
+    margin-right: 20px;
+}
+
+.label{
+    display: inline-block;
+    border-radius: 14px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Nunito Sans';
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 5px 18px;
+    background-color: #F37335;
+    margin-top: 115px;
+}
+
+.sale{
+    color: white;
+    font-family: 'Nunito Sans';
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 76px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.card-free{
+    width: 580px;
+    height: 400px;
+    background: url("img/img3.png");
+    padding-left: 50px;
+}
+
+.free{
+    margin-top: 100px;
+    color: white;
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 56px;
+}
+
+.card-description{
+    color: #FAF9F9;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-container{
+    margin-top: 185px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 400px;
+    background-color: #1E2F40;
+}
+
+.info{
+    margin-right: 100px;
+}
+
+.logo{
+    margin-right: 100px;
+    margin-top: 115px;
+    width: 63px;
+    height: 56px;
+}
+
+.footer-title{
+    font-family: 'Nunito Sans';
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.info{
+    margin-top: 110px;
+}
+
+.main-links{
+    padding: 0;
+}
+
+.main-links li{
+    margin-bottom: 10px;
+}
+
+.main-links li a, span{
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #DEDEDE;
+}
+
+.contacts{
+    padding: 0;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FAF9F9;
+}
+
+.time{
+    margin-bottom: 12px;
+}
+
+.tel{
+    font-family: 'Nunito Sans';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #FBB731;
+}
